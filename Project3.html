@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC: Survey Form</title>
+    <link rel="stylesheet" href="Project3.css">
+</head>
+<body>
+    <div id="title">
+        <h2>freeCodeCamp Survey Form</h2>
+        <i>Thank you for taking the time tp help us improve the platform</i>
+    </div>
+    <div id="main">
+        <div class ="row-tab">
+            <p for="">Name</p>
+            <input type="text"  class="input"name="name" id="" placeholder="Enter your name">
+        </div>
+        <div class ="row-tab">
+            <p for="">Email</p>
+            <input type="email" class="input" name="email" id="" placeholder="Enter your Email">
+        </div>
+        <div class ="row-tab">
+            <p for="">Age (optional)</p>
+            <input type="number" class="input" name="email" id="" placeholder="Age">
+        </div>
+        <div class ="row-tab">
+            <p for="">Which option best describes your current role?</p>
+            <select  class="input" name="" id="">
+                <option value="">Select current role</option>
+            </select>
+        </div>
+        <div class ="row-tab">
+            <p for="">Would you recommend freeCodeCamp to a friend?</p>
+            <div id="recommend">
+                <div><input class="radio_btn" type="radio" name="recommend" id="">Definitely</div>
+                <div><input class="radio_btn" type="radio" name="recommend" id="">Maybe</div>
+                <div><input class="radio_btn" type="radio" name="recommend" id="">Not sure</div>
+            </div>
+        </div>
+        <div class ="row-tab">
+            <p for="">What is your favorite feature of freeCodeCamp?</p>
+            <select class="input" name="" id="">
+                <option value="">Select an option</option>
+            </select>
+        </div>
+        <div class ="row-tab">
+            <p for="">What would you like to see improved? (Check all that apply)</p>
+            <div>
+                <div><input class="box-btn" type="checkbox" name="" id="">Front-end Projects</div>
+                <div><input class="box-btn" type="checkbox" name="" id="">Back-end Projects</div>
+                <div><input class="box-btn" type="checkbox" name="" id="">Data Visualization</div>
+                <div><input class="box-btn" type="checkbox" name="" id="">Challenges</div>
+                <div><input class="box-btn" type="checkbox" name="" id="">Open Source Community</div>
+                <div><input class="box-btn" type="checkbox" name="" id="">Gitter help rooms</div>
+                <div><input class="box-btn" type="checkbox" name="" id="">Videos</div>
+                <div><input class="box-btn" type="checkbox" name="" id="">City Meetups</div>
+                <div><input class="box-btn" type="checkbox" name="" id="">Wiki</div>
+                <div><input class="box-btn" type="checkbox" name="" id="">Forum</div>
+                <div><input class="box-btn" type="checkbox" name="" id="">Additional Courses</div>
+            </div>
+        </div>
+        <div class ="row-tab">
+            <p for="">Any comments or suggestions?</p>
+            <textarea name="" id="textarea" cols="82" rows="10" placeholder="Enter your comment here.."></textarea>
+        </div>
+        <button type="submit" id="submit-btn">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
